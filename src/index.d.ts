@@ -39,7 +39,7 @@ import { jsPDF } from "jspdf";
  *   },
  *   business?: {
  *       name?: string,
- *       address?: string,
+ *       address?: number,
  *       phone?: string,
  *       email?: string,
  *       email_1?: string,
@@ -48,7 +48,7 @@ import { jsPDF } from "jspdf";
  *   contact?: {
  *       label?: string,
  *       name?: string,
- *       address?: string,
+ *       address?: number,
  *       phone?: string,
  *       email?: string,
  *       otherInfo?: string,
