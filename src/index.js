@@ -42,7 +42,7 @@ export { OutputType, jsPDF };
  *   },
  *   business?: {
  *       name?: string,
- *       address?: string,
+ *       address?: number,
  *       phone?: string,
  *       email?: string,
  *       email_1?: string,
