@@ -179,7 +179,11 @@ function jsPDFInvoiceTemplate(props) {
 
   var docWidth = doc.internal.pageSize.width;
   var docHeight = doc.internal.pageSize.height;
-
+    var customFont = new FontFace('Amiri', 'url(path/to/amiri.woff2)');
+    document.fonts.add(customFont);
+    doc.addFont('Amiri', 'Amiri', 'normal');
+    doc.setFont('Amiri');
+    doc.text('مرحبا بالعالم!', 10, 10);
   var colorBlack = "#000000";
   var colorGray = "#4d4e53";
   //starting at 15mm
