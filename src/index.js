@@ -198,6 +198,7 @@ function jsPDFInvoiceTemplate(props) {
   doc.setTextColor(colorBlack);
   doc.text(docWidth - 10, currentHeight, param.business.name, "right");
   doc.setFontSize(pdfConfig.fieldTextSize);
+  doc.setFont('Amiri');
 
   if (param.logo.src) {
     var imageHeader = '';
